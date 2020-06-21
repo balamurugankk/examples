@@ -1,39 +1,36 @@
 package com.bala;
 
-import com.bala.StringOperations.ArrayOps;
-import com.bala.StringOperations.StringOps;
-import com.bala.conditional.ConditionalStatements;
-import com.bala.loops.Loops;
+import com.bala.ArrayOperations.ArrayListOptions1;
+import com.bala.ArrayOperations.ArrayOptions1;
+import com.bala.ArrayOperations.ArrayOptions2;
 import com.bala.math.Add2Numbers;
-
-import java.util.Arrays;
-import java.util.Optional;
 
 public class ExampleApplication {
 
     public static void main(String[] args) {
-        Add2Numbers add2Numbers = new Add2Numbers();
-        add2Numbers.Add2Numbers();
+        ArrayOptions2 arrayOptions2 = new ArrayOptions2();
+        arrayOptions2.ArrayOptions2();
 
-        ArrayOps arrayOps = new ArrayOps();
-        arrayOps.ArrayOptions1();
+        ArrayListOptions1 arrayListOptions1 = new ArrayListOptions1();
+        arrayListOptions1.ArrayListOptions1();
 
-/*        StringOps stringOps = new StringOps();
+/*      Add2Numbers add2Numbers = new Add2Numbers();
+        add2Numbers.Add2Numbers(); */
+/*      ArrayOptions1 arrayOptions1 = new ArrayOptions1();
+        arrayOptions1.ArrayOptions1(); */
+/*      StringOps stringOps = new StringOps();
         stringOps.Operation1(); */
-
-/*        Loops loops = new Loops();
+/*      Loops loops = new Loops();
         loops.forLoop();
         loops.whileLoop();
         loops.doWhileLoop();
         loops.foreachLoop(); */
-
-/*        ConditionalStatements conditionalStatements = new ConditionalStatements();
+/*      ConditionalStatements conditionalStatements = new ConditionalStatements();
         conditionalStatements.elseIf();
         conditionalStatements.ifElse();
         conditionalStatements.switchCase();
         conditionalStatements.switchCaseString(); */
-
- /*       InfiniteLoops infiniteLoops = new InfiniteLoops();
+ /*     InfiniteLoops infiniteLoops = new InfiniteLoops();
         infiniteLoops.ForLoopInfinite();
         infiniteLoops.WhileLoopInfinite(); */
 

@@ -1,6 +1,8 @@
-package com.bala.StringOperations;
+package com.bala.ArrayOperations;
 
-public class ArrayOps {
+import com.bala.StringOperations.StringOps;
+
+public class ArrayOptions1{
 
     public void ArrayOptions1(){
         String[] cars = { "VolksWagen", "Maruti", "Hyundai", "Audi" };
@@ -17,6 +19,14 @@ public class ArrayOps {
         modelName[1] = "jetta";
         System.out.println(modelName.length);
         System.out.println(modelName[2]);
+        System.out.println("-----------------");
+        for (int i: numberList){
+            System.out.print( i+ "\t");
+        }
+        System.out.println("\n-----------------");
+        for (String j: modelName){
+            System.out.print(j + "\t");
+        }
     }
 
 }

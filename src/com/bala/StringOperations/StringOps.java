@@ -33,7 +33,7 @@ public class StringOps {
         System.out.println("-------------------------------");
         char[] statementInChars = statement.toCharArray();
         for (char value:statementInChars) {
-            System.out.println(value);
+            System.out.print(value+"\t");
         }
     }
 
