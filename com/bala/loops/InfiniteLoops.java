@@ -1,4 +1,4 @@
-package com.bala.math;
+package com.bala.loops;
 
 public class InfiniteLoops {
 
