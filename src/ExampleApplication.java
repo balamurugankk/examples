@@ -19,7 +19,8 @@ public class ExampleApplication {
         ConditionalStatements conditionalStatements = new ConditionalStatements();
         conditionalStatements.elseIf();
         conditionalStatements.ifElse();
-
+        conditionalStatements.switchCase();
+        conditionalStatements.switchCaseString();
  //       InfiniteLoops infiniteLoops = new InfiniteLoops();
  //       infiniteLoops.ForLoopInfinite();
  //       infiniteLoops.WhileLoopInfinite();
