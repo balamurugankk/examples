@@ -1,5 +1,6 @@
 package com.bala;
 
+import com.bala.conditional.ConditionalStatements;
 import com.bala.loops.Loops;
 import com.bala.math.Add2Numbers;
 
@@ -14,6 +15,10 @@ public class ExampleApplication {
         loops.whileLoop();
         loops.doWhileLoop();
         loops.foreachLoop();
+
+        ConditionalStatements conditionalStatements = new ConditionalStatements();
+        conditionalStatements.elseIf();
+        conditionalStatements.ifElse();
 
  //       InfiniteLoops infiniteLoops = new InfiniteLoops();
  //       infiniteLoops.ForLoopInfinite();
