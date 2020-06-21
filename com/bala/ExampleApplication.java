@@ -1,4 +1,6 @@
-package com.bala.math;
+package com.bala;
+
+import com.bala.math.Add2Numbers;
 
 public class ExampleApplication {
     public static void main(String[] args) {
